@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens dinãmicas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repellat magni quibusdam ad nisi odio rerum est deserunt possimus repellendus? Corporis perspiciatis delectus molestias nihil reprehenderit nisi deserunt deleniti non!</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Áudios</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium harum nam voluptas laudantium amet enim impedit dolor beatae itaque dignissimos? Fuga iure laudantium esse voluptas in aperiam, eveniet officia ipsam.</p>
+    <p>Jeito Errado</p>
+    <audio src="midias/Bite_Me_-_NEFFEX.mp3" controls autoplay></audio> <!--MP3,WAV,OGG-->
+    <p>Jeito Certo</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/Bite_Me_-_NEFFEX.mp3" type="audio/mpeg">
+        <source src="midias/Bite_Me_-_NEFFEX.ogg" type="audio/ogg">
+        <source src="midias/Bite_Me_-_NEFFEX.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
