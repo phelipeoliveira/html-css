@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black; 
+        }
+
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem itaque ullam minima, animi harum a quas commodi modi, voluptate iure quaerat. Incidunt rem non, reiciendis et dolorem aperiam molestias modi?</p>
+
+    <ul>
+        <li><a href="paginas extras/pag001.html" target="frame">First Page</a></li>
+        <li><a href="paginas extras/pag002.html" target="frame">Second Page</a></li>
+        <li><a href="paginas extras/pag003.html" target="frame">Terceira Page</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, explicabo asperiores id dignissimos facere numquam repellendus totam dicta quam odit modi praesentium, odio officia, accusantium et vel quod reiciendis ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corrupti laudantium quis molestiae sapiente pariatur earum vel sit a? Consectetur exercitationem illo laboriosam unde earum eligendi libero harum voluptates voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit labore ipsam ratione corporis inventore quae natus quidem architecto pariatur suscipit repellat, recusandae tempore illum ipsa facere dolore consequuntur, velit perferendis.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Para usar esse quadro é necessário clicar nos link acima</p>">
+        <p>Infelismente seu navegador não é compatível com isso.</p>
+    </iframe> <h6>&lt;!-- Para usar esse quadro é necessário clicar nos links acima --&gt;</h6>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio fuga earum voluptate debitis vel enim doloremque saepe consequatur cum, labore mollitia culpa impedit quo voluptates quae facilis libero? Eum, impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rem dolor enim, non est, neque sint porro accusamus placeat harum vel rerum. Sint repudiandae soluta totam vero cum odio quas.</p>
+
+</body>
+</html>
