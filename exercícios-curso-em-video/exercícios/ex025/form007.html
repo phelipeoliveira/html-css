@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="esta">Estado</label>
+            <select name="estado" id="esta">
+                <optgroup label="Sudeste">
+                    <option value="MG">Minas</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="ES">Espírito Santo</option>
+                </optgroup>
+                <optgroup label="Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="AC">Acre</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="profi">Profissão</label>
+            <input type="text" name="prof" id="profi" list="1stprofi">
+            <datalist id="1stprofi">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="mensa">Mensagem</label> <br>
+            <textarea name="msg" id="mensa" cols="30" rows="10">Escreva algo: </textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
