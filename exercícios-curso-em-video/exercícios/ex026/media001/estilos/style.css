@@ -1,0 +1,40 @@
+@charset "URT-8";
+
+/* Estilo para telas*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgb(172, 172, 172);
+}
+
+header > h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+menu ul {
+    background-color: gray;
+    list-style-type: none;
+}
+
+menu li {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+article {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
