@@ -1,1 +1,7 @@
 @charset "UTF-8";
+
+/* Para telas no modo retrato (9x16) */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
