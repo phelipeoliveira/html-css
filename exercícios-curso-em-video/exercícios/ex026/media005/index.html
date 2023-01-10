@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Media Queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
-        <h1>Teste de Media Queries</h1>
-        <menu>
+        <h1>Media Queries</h1>
+        <i id="menu" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="explorer">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Notícias</a></li>
@@ -35,5 +37,14 @@
             <h6>Essa enquete foi tirada no site da <a href="https://blog.br.playstation.com/2023/01/05/apresentamos-o-project-leonardo-para-playstation-5-um-kit-de-controle-de-acessibilidade-altamente-personalizavel/">Playstation Blog,</a>se quiser ler mais sobre o assunto, é só clicar no link anterior</h6>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (explorer.style.display == 'block') {
+                explorer.style.display = 'none'
+            } else {
+                explorer.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
